@@ -1,0 +1,260 @@
+1. Présentation Générale
+
+1.1 Nom du projet
+
+DEV↑UP – Level up your dev life
+
+1.2 Contexte
+
+DEV↑UP est une application web destinée aux étudiants et jeunes développeurs qui ont du mal à rester concentrés, motivés et réguliers dans leur apprentissage.
+L’application les aide à organiser leur temps, relever des micro-challenges et suivre leur progression à travers un système gamifié et communautaire.
+
+1.3 Objectifs du projet
+
+-Améliorer la concentration et la discipline des utilisateurs
+
+
+-Aider à structurer le temps de travail et les pauses
+
+
+-Motiver les utilisateurs via la gamification
+
+
+-Proposer des défis quotidiens adaptés au niveau
+
+
+-Créer une communauté saine d’entraide
+
+
+1.4 Valeurs clés
+-Motivation : encouragement constant
+
+
+-Simplicité : interface claire et rapide
+
+
+-Engagement : défis et récompenses
+
+
+-Bien-être : équilibre travail / pause
+
+
+
+2. Acteurs du Système
+Visiteur
+
+
+Apprenant Développeur
+
+
+Moteur Intelligent (Coach Virtuel)
+
+
+Administrateur Plateforme
+
+
+
+3. User Stories (Spécifications Fonctionnelles)
+
+3.1 Visiteur (Guest)
+En tant que visiteur, je veux consulter la présentation de l’application afin de comprendre son objectif.
+
+
+En tant que visiteur, je veux voir des exemples de challenges afin de savoir ce que propose la plateforme.
+
+
+En tant que visiteur, je veux créer un compte afin d’utiliser l’application.
+
+
+
+3.2 Utilisateur (User)
+Authentification & Profil
+En tant qu’utilisateur, je veux créer un compte sécurisé.
+
+
+En tant qu’utilisateur, je veux me connecter et me déconnecter.
+
+
+En tant qu’utilisateur, je veux modifier mon profil.
+
+
+Organisation & Focus
+En tant qu’utilisateur, je veux planifier mes sessions de travail afin d’organiser mon temps.
+
+
+En tant qu’utilisateur, je veux recevoir des rappels pour commencer une session.
+
+
+En tant qu’utilisateur, je veux lancer un minuteur (focus / pause).
+
+
+Challenges & Gamification
+En tant qu’utilisateur, je veux recevoir des micro-challenges quotidiens.
+
+
+En tant qu’utilisateur, je veux valider un challenge afin de gagner des points.
+
+
+En tant qu’utilisateur, je veux voir mon niveau évoluer.
+
+
+En tant qu’utilisateur, je veux consulter mon historique de performances.
+
+
+Statistiques
+En tant qu’utilisateur, je veux voir mes statistiques de focus.
+
+
+En tant qu’utilisateur, je veux visualiser mes progrès sous forme de graphiques.
+
+
+Communauté
+En tant qu’utilisateur, je veux voir le classement général.
+
+
+En tant qu’utilisateur, je veux défier un autre utilisateur.
+
+
+En tant qu’utilisateur, je veux recevoir des notifications.
+
+
+
+3.3 Administrateur (Admin)
+En tant qu’administrateur, je veux accéder à un dashboard.
+
+
+En tant qu’administrateur, je veux gérer les utilisateurs.
+
+
+En tant qu’administrateur, je veux créer / modifier / supprimer des challenges.
+
+
+En tant qu’administrateur, je veux consulter les statistiques globales.
+
+
+En tant qu’administrateur, je veux suspendre un compte.
+
+
+
+4. Fonctionnalités Transversales
+4.1 Recherche
+Recherche par nom d’utilisateur
+
+
+Recherche par challenge
+
+
+4.2 Filtres
+Par niveau
+
+
+Par type de challenge
+
+
+Par date
+
+
+4.3 Notifications
+Rappels de focus
+
+
+Nouveaux challenges
+
+
+Défis reçus
+
+
+
+5. Stack Technologique
+Front-end
+HTML5
+
+
+CSS3
+
+
+Tailwind CSS
+
+
+JavaScript
+
+
+React.js
+
+
+Back-end
+PHP
+
+
+Laravel
+
+
+Base de données
+PostgreSQL
+
+
+
+6. Outils & Méthodologie
+UI/UX : Figma
+
+
+Gestion de projet : Jira (SCRUM)
+
+
+Versionnage : Git / GitHub
+
+
+IDE : VS Code
+
+
+
+7. Contraintes Techniques
+Respect du pattern MVC
+
+
+Sécurisation des formulaires
+
+
+Gestion des rôles (User / Admin)
+
+
+Validation backend
+
+
+
+8. Livrables Attendus
+Application web fonctionnelle
+
+
+Base de données
+
+
+Dépôt GitHub documenté
+
+
+Cahier des charges
+
+
+Présentation finale
+
+9. Bonus
+
+Recommandations personnalisées (profil + historique)
+
+
+Système de challenges avancé (badges, streak)
+
+
+Chat temps réel (WebSockets)
+
+
+Réservation de séance coach / essai salle*
+
+
+Vérification coach/salle (badge de confiance)
+
+
+Assistant IA (santé, préférences, motivation)
+
+
+
