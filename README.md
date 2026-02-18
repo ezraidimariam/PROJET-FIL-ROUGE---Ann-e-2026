@@ -1,215 +1,73 @@
 🚀 DEV↑UP – Level up your dev life
 
-Application web gamifiée pour aider les étudiants et jeunes développeurs à rester concentrés, disciplinés et motivés dans leur apprentissage.
+-Application web gamifiée destinée aux étudiants et jeunes développeurs pour améliorer leur concentration, leur discipline et leur motivation.
 
-👩‍💻 Réalisatrice
+👩‍💻 Informations
 
-Mariam Ezraidi
-Année de formation : 2025 / 2026
-Encadrant : Monsieur Achraf Chaoub
+-Réalisatrice : Mariam Ezraidi
 
-📌 À propos du projet
+-Encadrant : Monsieur Achraf Chaoub
 
-DEV↑UP est une plateforme web conçue pour les développeurs débutants et étudiants en informatique qui rencontrent des difficultés à :
+-Année : 2025 / 2026
 
-Rester concentrés
+-Type : Projet Fil Rouge
 
-Être réguliers
+🎯 Objectif
 
-Organiser leur temps
+DEV↑UP aide les développeurs à :
 
-Maintenir leur motivation
+-Organiser leur temps de travail
 
-L’application combine productivité, gamification et communauté pour transformer l’apprentissage du développement en une expérience engageante et structurée.
+-Lancer des sessions Focus / Pause
 
-🎯 Objectifs
+-Relever des micro-challenges quotidiens
 
-✅ Améliorer la concentration et la discipline
+-Suivre leur progression
 
-✅ Structurer le temps de travail (focus / pause)
+-Rester motivés grâce à la gamification
 
-✅ Motiver via un système de récompenses
+⚙️ Fonctionnalités
 
-✅ Proposer des micro-challenges quotidiens
+-Authentification (inscription / connexion)
 
-✅ Créer une communauté saine et motivante
+-Gestion de profil
 
-🌟 Valeurs du projet
+-Planification des sessions
 
-Motivation – Encouragement constant
+-Minuteur Focus
 
-Simplicité – Interface intuitive et rapide
+-Système de points et niveaux
 
-Engagement – Défis, points, niveaux
+-Statistiques et progression
 
-Bien-être – Équilibre travail / repos
+-Classement et défis
 
-👥 Acteurs du système
+🛠 Technologies utilisées
 
-👀 Visiteur
+----Frontend :
+React.js – Tailwind CSS – JavaScript – HTML5 – CSS3
 
-👨‍💻 Apprenant Développeur (User)
+----Backend :
+PHP – Laravel
 
-🤖 Coach Virtuel Intelligent
-
-🛠 Administrateur
-
-⚙️ Fonctionnalités principales
-🔐 Authentification & Profil
-
-Création de compte sécurisé
-
-Connexion / Déconnexion
-
-Modification du profil
-
-Gestion des rôles (User / Admin)
-
-⏳ Organisation & Focus
-
-Planification des sessions de travail
-
-Rappels automatiques
-
-Minuteur Focus / Pause (type Pomodoro)
-
-🎮 Challenges & Gamification
-
-Micro-challenges quotidiens
-
-Validation des défis
-
-Système de points
-
-Évolution par niveaux
-
-Historique des performances
-
-📊 Statistiques
-
-Suivi du temps de concentration
-
-Graphiques de progression
-
-Analyse des performances
-
-🌍 Communauté
-
-Classement général
-
-Défis entre utilisateurs
-
-Notifications
-
-Interaction sociale motivante
-
-🔎 Fonctionnalités transversales
-
-Recherche par utilisateur
-
-Recherche par challenge
-
-Filtres (niveau, type, date)
-
-Notifications intelligentes
-
-🧠 Bonus (Fonctionnalités avancées)
-
-🔮 Recommandations personnalisées (profil + historique)
-
-🏅 Système avancé de badges & streak
-
-💬 Chat en temps réel (WebSockets)
-
-🗓 Réservation séance coach / essai salle
-
-✔️ Vérification coach/salle (badge confiance)
-
-🤖 Assistant IA (santé, motivation, préférences)
-
-🛠 Stack Technologique
-🎨 Front-end
-
-HTML5
-
-CSS3
-
-Tailwind CSS
-
-JavaScript
-
-React.js
-
-🧩 Back-end
-
-PHP
-
-Laravel
-
-🗄 Base de données
-
+----Base de données :
 PostgreSQL
-
-🧰 Outils utilisés
-
-🎨 UI/UX : Figma
-
-📌 Gestion de projet : Jira (SCRUM)
-
-🗂 Versionnage : Git & GitHub
-
-💻 IDE : VS Code
 
 🔒 Contraintes techniques
 
-Respect de l’architecture MVC
+-Architecture MVC
 
-Validation backend
+-Validation backend
 
-Sécurisation des formulaires
+-Gestion des rôles (User / Admin)
 
-Gestion des rôles et permissions
+-Sécurisation des formulaires
 
-📦 Livrables
+📦 Installation
+-git clone https://github.com/ezraidimariam/PROJET-FIL-ROUGE---Ann-e-2026.git
+-cd backend
+-composer install
+-php artisan migrate
+-php artisan serve
 
-✔ Application web fonctionnelle
-
-✔ Base de données PostgreSQL
-
-✔ Dépôt GitHub documenté
-
-✔ Cahier des charges
-
-✔ Présentation finale
-
-
-🚀 Installation (exemple local)
-1️⃣ Cloner le projet
-git clone https://github.com/ezraidimariam/PROJET-FIL-ROUGE---Ann-e-2026.git
-2️⃣ Backend
-cd backend
-composer install
-cp .env.example .env
-php artisan key:generate
-php artisan migrate
-php artisan serve
-3️⃣ Frontend
-cd frontend
-npm install
-npm run dev
-📈 Vision Future
-
-DEV↑UP a pour ambition de devenir une plateforme complète de productivité pour développeurs, combinant :
-
-Discipline
-
-Gamification
-
-Intelligence artificielle
-
-Accompagnement personnalisé
-
-💡 Conclusion
-
-DEV↑UP n’est pas seulement une application de gestion du temps.
-C’est un écosystème motivant qui transforme la discipline en progression mesurable et l’apprentissage en expérience engageante.
+✨ DEV↑UP transforme la discipline en progression mesurable.
