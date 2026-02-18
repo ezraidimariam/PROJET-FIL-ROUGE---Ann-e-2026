@@ -65,9 +65,13 @@ PostgreSQL
 
 📦 Installation
 -git clone https://github.com/ezraidimariam/PROJET-FIL-ROUGE---Ann-e-2026.git
+
 -cd backend
+
 -composer install
+
 -php artisan migrate
+
 -php artisan serve
 
 ✨ DEV↑UP transforme la discipline en progression mesurable.
