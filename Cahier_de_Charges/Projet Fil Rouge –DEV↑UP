@@ -1,172 +1,362 @@
 1. Présentation Générale
-
 1.1 Nom du projet
-
 DEV↑UP – Level up your dev life
 
 1.2 Contexte
-
-DEV↑UP est une application web destinée aux étudiants et jeunes développeurs qui ont du mal à rester concentrés, motivés et réguliers dans leur apprentissage.
-L’application les aide à organiser leur temps, relever des micro-challenges et suivre leur progression à travers un système gamifié et communautaire.
-
-1.3 Objectifs du projet
-
--Améliorer la concentration et la discipline des utilisateurs
+DEV↑UP est une application web destinée aux étudiants et développeurs débutants qui rencontrent des difficultés à rester concentrés et réguliers dans leur apprentissage de la programmation.
+De nombreux apprenants abandonnent ou progressent lentement à cause de :
+manque de motivation
 
 
--Aider à structurer le temps de travail et les pauses
+mauvaise gestion du temps
 
 
--Motiver les utilisateurs via la gamification
+absence de suivi de progression
 
 
--Proposer des défis quotidiens adaptés au niveau
+DEV↑UP propose une solution basée sur :
+gestion du temps (focus sessions)
 
 
--Créer une communauté saine d’entraide
+micro-challenges quotidiens
 
 
-1.4 Valeurs clés
--Motivation : encouragement constant
+gamification (points, niveaux, classement)
 
 
--Simplicité : interface claire et rapide
+statistiques de progression
 
 
--Engagement : défis et récompenses
+L'objectif est de créer un environnement motivant qui aide les utilisateurs à améliorer leur discipline et leur productivité.
+
+2. Objectifs du Projet
+Les objectifs principaux sont :
+🎯 Motivation
+Encourager les utilisateurs à pratiquer la programmation quotidiennement.
+⏱ Gestion du temps
+Aider les utilisateurs à organiser leurs sessions de travail et leurs pauses.
+🎮 Gamification
+Motiver les utilisateurs grâce à un système de :
+points
 
 
--Bien-être : équilibre travail / pause
+niveaux
+
+
+challenges
+
+
+classement
+
+
+📊 Suivi de progression
+Permettre aux utilisateurs de visualiser leur évolution à travers des statistiques et graphiques.
+🤝 Communauté
+Créer un espace où les développeurs peuvent se challenger et progresser ensemble.
+
+3. Valeurs Clés
+Motivation
+Encouragement constant grâce aux défis et récompenses.
+Simplicité
+Interface intuitive et facile à utiliser.
+Engagement
+Système gamifié pour maintenir l’intérêt des utilisateurs.
+Bien-être
+Équilibre entre travail et pauses pour éviter la fatigue mentale.
+
+4. Personas (Utilisateurs Types)
+Persona 1 : Étudiant développeur
+Nom : Yassine
+ Age : 22 ans
+Objectif : apprendre le développement web.
+Problèmes :
+difficulté à rester concentré
+
+
+procrastination
+
+
+manque de motivation
+
+
+Solution apportée par DEV↑UP :
+focus timer
+
+
+micro challenges
+
+
+suivi de progression
 
 
 
-2. Acteurs du Système
+Persona 2 : Développeuse débutante
+Nom : Sara
+ Age : 24 ans
+Objectif : apprendre React et Laravel.
+Problèmes :
+mauvaise organisation du temps
+
+
+difficulté à suivre ses progrès
+
+
+Solution DEV↑UP :
+planification des sessions
+
+
+statistiques
+
+
+rappels de travail
+
+
+
+5. Acteurs du Système
+Le système comporte quatre acteurs principaux.
 Visiteur
-
-
+Utilisateur non connecté qui découvre la plateforme.
 Apprenant Développeur
-
-
+Utilisateur inscrit qui utilise l’application.
 Moteur Intelligent (Coach Virtuel)
+Système qui analyse les performances et propose des challenges.
+Administrateur
+Responsable de la gestion de la plateforme.
+
+6. Spécifications Fonctionnelles (User Stories)
+6.1 Visiteur
+En tant que visiteur je veux :
+consulter la présentation de l’application
 
 
-Administrateur Plateforme
+voir des exemples de challenges
 
 
-
-3. User Stories (Spécifications Fonctionnelles)
-
-3.1 Visiteur (Guest)
-En tant que visiteur, je veux consulter la présentation de l’application afin de comprendre son objectif.
-
-
-En tant que visiteur, je veux voir des exemples de challenges afin de savoir ce que propose la plateforme.
-
-
-En tant que visiteur, je veux créer un compte afin d’utiliser l’application.
+créer un compte
 
 
 
-3.2 Utilisateur (User)
-Authentification & Profil
-En tant qu’utilisateur, je veux créer un compte sécurisé.
+6.2 Utilisateur
+Authentification
+En tant qu’utilisateur je veux :
+créer un compte sécurisé
 
 
-En tant qu’utilisateur, je veux me connecter et me déconnecter.
+me connecter
 
 
-En tant qu’utilisateur, je veux modifier mon profil.
+me déconnecter
+
+
+modifier mon profil
+
 
 
 Organisation & Focus
-En tant qu’utilisateur, je veux planifier mes sessions de travail afin d’organiser mon temps.
+L’utilisateur doit pouvoir :
+planifier une session de travail
 
 
-En tant qu’utilisateur, je veux recevoir des rappels pour commencer une session.
+recevoir un rappel pour commencer
 
 
-En tant qu’utilisateur, je veux lancer un minuteur (focus / pause).
+lancer un minuteur de concentration
+
+
+lancer une pause
+
 
 
 Challenges & Gamification
-En tant qu’utilisateur, je veux recevoir des micro-challenges quotidiens.
+L’utilisateur doit pouvoir :
+recevoir des micro-challenges quotidiens
 
 
-En tant qu’utilisateur, je veux valider un challenge afin de gagner des points.
+valider un challenge
 
 
-En tant qu’utilisateur, je veux voir mon niveau évoluer.
+gagner des points
 
 
-En tant qu’utilisateur, je veux consulter mon historique de performances.
+monter de niveau
+
 
 
 Statistiques
-En tant qu’utilisateur, je veux voir mes statistiques de focus.
+L’utilisateur doit pouvoir :
+consulter ses statistiques de focus
 
 
-En tant qu’utilisateur, je veux visualiser mes progrès sous forme de graphiques.
+visualiser ses progrès avec des graphiques
+
+
+consulter son historique de sessions
+
 
 
 Communauté
-En tant qu’utilisateur, je veux voir le classement général.
+L’utilisateur doit pouvoir :
+consulter le classement général
 
 
-En tant qu’utilisateur, je veux défier un autre utilisateur.
+défier un autre utilisateur
 
 
-En tant qu’utilisateur, je veux recevoir des notifications.
-
-
-
-3.3 Administrateur (Admin)
-En tant qu’administrateur, je veux accéder à un dashboard.
-
-
-En tant qu’administrateur, je veux gérer les utilisateurs.
-
-
-En tant qu’administrateur, je veux créer / modifier / supprimer des challenges.
-
-
-En tant qu’administrateur, je veux consulter les statistiques globales.
-
-
-En tant qu’administrateur, je veux suspendre un compte.
+recevoir des notifications
 
 
 
-4. Fonctionnalités Transversales
-4.1 Recherche
-Recherche par nom d’utilisateur
+6.3 Administrateur
+L’administrateur doit pouvoir :
+accéder au dashboard
 
 
-Recherche par challenge
+gérer les utilisateurs
 
 
-4.2 Filtres
-Par niveau
+créer des challenges
 
 
-Par type de challenge
+modifier des challenges
 
 
-Par date
+supprimer des challenges
 
 
-4.3 Notifications
-Rappels de focus
+suspendre un utilisateur
 
 
-Nouveaux challenges
-
-
-Défis reçus
+consulter les statistiques globales
 
 
 
-5. Stack Technologique
-Front-end
+7. Fonctionnalités Transversales
+Recherche
+Recherche par :
+nom d’utilisateur
+
+
+challenge
+
+
+
+Filtres
+Filtrer par :
+niveau
+
+
+type de challenge
+
+
+date
+
+
+
+Notifications
+Le système envoie :
+rappels de focus
+
+
+nouveaux challenges
+
+
+défis reçus
+
+
+
+8. Exigences Fonctionnelles
+Le système doit permettre de :
+gérer l’inscription et la connexion
+
+
+planifier des sessions de travail
+
+
+lancer un timer de concentration
+
+
+attribuer des challenges
+
+
+enregistrer la progression
+
+
+afficher les statistiques
+
+
+gérer les utilisateurs (admin)
+
+
+
+9. Exigences Non Fonctionnelles
+Performance
+Le système doit répondre en moins de 2 secondes.
+
+Sécurité
+mots de passe cryptés (bcrypt)
+
+
+protection CSRF
+
+
+validation backend
+
+
+
+Compatibilité
+Application compatible :
+desktop
+
+
+mobile
+
+
+
+Disponibilité
+Application accessible 24h/24.
+
+10. Architecture du Système
+Architecture basée sur MVC.
+Client (React.js)
+      │
+API REST
+      │
+Backend Laravel
+      │
+PostgreSQL Database
+
+11. Modèle de Données
+Users
+id
+ name
+ email
+ password
+ level
+ points
+
+Challenges
+id
+ title
+ description
+ difficulty
+ points
+
+Sessions
+id
+ user_id
+ focus_duration
+ break_duration
+ date
+
+User_Challenges
+id
+ user_id
+ challenge_id
+ status
+ completed_at
+
+12. Stack Technologique
+Front-End
 HTML5
 
 
@@ -182,11 +372,13 @@ JavaScript
 React.js
 
 
-Back-end
+
+Back-End
 PHP
 
 
 Laravel
+
 
 
 Base de données
@@ -194,51 +386,54 @@ PostgreSQL
 
 
 
-6. Outils & Méthodologie
+13. Outils & Méthodologie
 UI/UX : Figma
-
-
 Gestion de projet : Jira (SCRUM)
-
-
 Versionnage : Git / GitHub
-
-
 IDE : VS Code
 
+14. Contraintes Techniques
+respect du pattern MVC
 
 
-7. Contraintes Techniques
-Respect du pattern MVC
+sécurisation des formulaires
 
 
-Sécurisation des formulaires
+gestion des rôles (User / Admin)
 
 
-Gestion des rôles (User / Admin)
-
-
-Validation backend
+validation backend
 
 
 
-8. Livrables Attendus
-Application web fonctionnelle
+15. Risques du Projet
+Manque d'engagement utilisateur
+Solution : gamification.
+Problèmes de performance
+Solution : optimisation backend.
+Sécurité des comptes
+Solution : authentification sécurisée.
+
+16. Livrables Attendus
+application web fonctionnelle
 
 
-Base de données
+base de données
 
 
-Dépôt GitHub documenté
+dépôt GitHub documenté
 
 
-Cahier des charges
+cahier des charges
 
 
-Présentation finale
+présentation finale
+
+
+
+
 
 9. Bonus
-
 Recommandations personnalisées (profil + historique)
 
 
