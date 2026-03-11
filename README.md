@@ -56,18 +56,13 @@ Une application interactive basée sur 4 piliers :
    ```bash
    git clone [https://github.com/ezraidimariam/PROJET-FIL-ROUGE---Ann-e-2026.git]
    cd dev-up
-2. **Configuration Backend (Laravel)**
-composer install
-cp .env.example .env # Configurez votre DB PostgreSQL ici
-php artisan key:generate
-php artisan migrate --seed
-php artisan serve
+
 
 1. **Configuration Frontend (React)**
 npm install
 npm start
 
-📊 Modèle de Données (Aperçu)
+📊 Modèle de Données 
 Le projet s'appuie sur une structure relationnelle optimisée :
 
 Users : Profils, XP, Niveaux.
