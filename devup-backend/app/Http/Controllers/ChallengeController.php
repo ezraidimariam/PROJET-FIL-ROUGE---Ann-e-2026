@@ -9,7 +9,7 @@ class ChallengeController extends Controller
 {
     public function index()
     {
-        $challenges = Challenge::with('admin')->get();
+        $challenges = Challenge::with('admin.user')->get();
         return view('challenges.index', compact('challenges'));
     }
 
@@ -26,11 +26,16 @@ class ChallengeController extends Controller
             'points_recompense' => 'required|integer|min:0',
         ]);
 
+        $admin = auth()->user()->admin;
+        if (!$admin) {
+            return redirect()->back()->with('error', 'You must be an admin to create challenges.');
+        }
+
         $challenge = Challenge::create([
             'titre' => $request->titre,
             'description' => $request->description,
             'points_recompense' => $request->points_recompense,
-            'admin_id' => auth()->user()->admin->id,
+            'admin_id' => $admin->id,
         ]);
 
         return redirect()->route('challenges.index')->with('success', 'Challenge created successfully!');

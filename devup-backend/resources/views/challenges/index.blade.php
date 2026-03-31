@@ -27,7 +27,7 @@
                         </a>
                     </td>
                     <td class="p-3">{{ $challenge->points_recompense }} pts</td>
-                    <td class="p-3">{{ $challenge->admin->user->name }}</td>
+                    <td class="p-3">{{ $challenge->admin?->user?->name ?? 'Unknown' }}</td>
                     <td class="p-3">
                         <a href="{{ route('challenges.edit', $challenge) }}" class="text-yellow-600 hover:underline mr-2">Edit</a>
                         <form action="{{ route('challenges.destroy', $challenge) }}" method="POST" class="inline">
